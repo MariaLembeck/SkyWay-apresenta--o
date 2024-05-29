@@ -1,0 +1,23 @@
+.paris {
+    position: absolute;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.paris-background {
+    position: absolute;
+    background-color: rgba(120, 167, 185, 0.301);
+    height: 500px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left:20px;
+    border-radius: 40px;
+
+}
+
+img {
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 90%;
+}

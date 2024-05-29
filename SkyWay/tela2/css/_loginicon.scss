@@ -1,0 +1,32 @@
+.user-parent {
+    width: 100%;
+}
+.user-child {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.background {
+    background-color: rgb(243, 255, 255);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid {
+    color: rgb(114, 158, 179);
+}
+
+h5 {
+    margin-right: 10px;
+    color: rgb(212, 241, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+}

@@ -1,0 +1,36 @@
+.Db {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+
+    .animated-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: rgb(205, 238, 249);
+        color: rgb(126, 161, 182);
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 180px;
+        
+    
+        &:hover {
+            background-color: #90bbcc;
+            color: rgb(203, 233, 238);
+            
+        }
+    
+        &:focus {
+            outline: none;
+        }
+    
+        &:active {
+            transform: translateY(2px);
+        }
+    }
+
+}
